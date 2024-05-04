@@ -75,9 +75,10 @@
 
   nav .nav-links {
     display: unset;
-    width: 20%;
+    max-width: 200px;
     margin: auto;
   }
+
   nav .nav-links li {
     opacity: 0;
     transform: translateX(50%);
@@ -114,9 +115,9 @@
 }
 
 @media screen and (max-width: 815px) {
-  header ul li {
+  /* header ul li {
     margin-left: 10px;
-  }
+  } */
 
   footer .container {
     max-width: 668px;
