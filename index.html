@@ -4,13 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apertune</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="https://resources/demos/style.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- <link rel="stylesheet" href="css/styles.scss" /> -->
   </head>
   <body>
     <header>
       <div class="container d-flex">
         <a><img src="images/logo.png" alt="logo-img" /></a>
+
+        <div class="menu-btn">
+          <div class="line line__1"></div>
+          <div class="line line__2"></div>
+          <div class="line line__3"></div>
+        </div>
         <nav>
+          <div class="sub-menu-btn">
+            <div class="line line__1"></div>
+            <div class="line line__2"></div>
+          </div>
+
+          <ul class="nav-links">
+            <li class="link">
+              <a href="#">Business areas</a>
+            </li>
+            <li class="link">
+              <a href="#">Featured images</a>
+              <ol>
+                <li><a href="#">Designers</a></li>
+                <li><a href="#">Developers</a></li>
+              </ol>
+            </li>
+            <li class="link">
+              <a href="#">Gear cage</a>
+              <ol>
+                <li><a href="#">Web</a></li>
+                <li><a href="#">Graphic</a></li>
+                <li><a href="#">Apps</a></li>
+              </ol>
+            </li>
+            <li class="link">
+              <a href="#">Contact</a>
+              <ol>
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Social</a></li>
+              </ol>
+            </li>
+            <li class="link logo-btn">
+              <a href="#">Get template</a>
+              <ol>
+                <li>
+                  <a target="_blank" href="https://twitter.com/DevLoop01">
+                    Twitter <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://codepen.io/dev_loop/">
+                    Codepen <i class="fab fa-codepen"></i>
+                  </a>
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- <nav>
           <ul>
             <li>
               <a href="#"> Business areas</a>
@@ -28,11 +93,11 @@
               <a href="#">Get template</a>
             </li>
           </ul>
-        </nav>
+        </nav> -->
       </div>
     </header>
     <main>
-      <section class="main_bunner">
+      <section class="main-bunner d-flex">
         <div class="aperture-studios">
           <h2>Photographer & Filmmaker</h2>
           <h1>Aperture Studios</h1>
@@ -51,24 +116,146 @@
             imperdiet. Nunc ut sem vitae risus tristique posuere.
           </p>
         </div>
-        <ul class="fixed_information">
+        <ul class="fixed-information">
           <li>1/2000s</li>
           <li>f/11</li>
           <li>100</li>
           <li>Iceland</li>
         </ul>
       </section>
-      <section class="what_we_do" style="height: 200px; color: white"></section>
+      <section class="what-we-do">
+        <div class="container">
+          <div class="header-what-we-do">
+            <h2>What we do</h2>
+            <p>The area that we specialized in.</p>
+          </div>
+          <div id="accordion">
+            <h3></h3>
+            <div class="d-flex">
+              <div class="item">
+                <div class="what-we-do-description styles-for-header">
+                  <h5>PRODUCT PHOTOGRAPHY</h5>
+                  <p>
+                    Cras commodo consequat orci, in convallis risus egestas non.
+                    Nulla efficitur auctor hendrerit. Etiam ut orci varius,
+                    faucibus libero ac, cursus quam.
+                  </p>
+                  <a href="#">Read more</a>
+                </div>
+                <img src="images/what-we-do1.svg" alt="img" />
+              </div>
+              <div class="item">
+                <div class="what-we-do-description styles-for-header">
+                  <h5>ARCHITECTURE PHOTOGRAPHY</h5>
+                  <p>
+                    Aenean porta neque eget consequat fringilla. Vestibulum
+                    ultrices, orci nec egestas pharetra, ligula est semper enim,
+                    nec auctor sapien leo nec purus. Fusce tincidunt aliquet
+                    sapien, sit amet rhoncus leo imperdiet nec.
+                  </p>
+                  <a href="#">Read more</a>
+                </div>
+                <img src="images/what-we-do2.svg" alt="img" />
+              </div>
+            </div>
+            <h3></h3>
+            <div class="d-flex">
+              <div class="item">
+                <div class="what-we-do-description styles-for-header">
+                  <h5>DRONE PHOTOGRAPHY</h5>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Facere quo ipsam, quae magnam doloremque beatae fugiat aut
+                    totam dignissimos et, mollitia recusandae tempora! Natus
+                    quaerat praesentium veritatis ducimus eaque facere.
+                  </p>
+                  <a href="#">Read more</a>
+                </div>
+                <img src="images/what-we-do3.svg" alt="img" />
+              </div>
+              <div class="item">
+                <div class="what-we-do-description styles-for-header">
+                  <h5>WILDLIFE PHOTOGRAPH</h5>
+                  <p>
+                    Lorem ipsum color ut arret, consectetur ad phang et Nuem
+                    scelensque afquam adio ee foucious: Puña rococus feuglat
+                    eros quis consctatur. Marb mour uc burcametum daptus congus
+                    et. vulputcte «* Iguio, Vestbutum at amet uma surpis.
+                  </p>
+                  <a href="#">Read more</a>
+                </div>
+                <img src="images/what-we-do4.svg" alt="img" />
+              </div>
+            </div>
+          </div>
 
-      <section class="sunset">
-        <div class="sunset-description">
+          <!-- <div class="d-flex">
+            <div class="item">
+              <div class="what-we-do-description styles-for-header">
+                <h5>PRODUCT PHOTOGRAPHY</h5>
+                <p>
+                  Cras commodo consequat orci, in convallis risus egestas non.
+                  Nulla efficitur auctor hendrerit. Etiam ut orci varius,
+                  faucibus libero ac, cursus quam.
+                </p>
+                <a href="#">Read more</a>
+              </div>
+              <img src="images/what-we-do1.svg" alt="img" />
+            </div>
+            <div class="item">
+              <div class="what-we-do-description styles-for-header">
+                <h5>ARCHITECTURE PHOTOGRAPHY</h5>
+                <p>
+                  Aenean porta neque eget consequat fringilla. Vestibulum
+                  ultrices, orci nec egestas pharetra, ligula est semper enim,
+                  nec auctor sapien leo nec purus. Fusce tincidunt aliquet
+                  sapien, sit amet rhoncus leo imperdiet nec.
+                </p>
+                <a href="#">Read more</a>
+              </div>
+              <img src="images/what-we-do2.svg" alt="img" />
+            </div>
+            <div class="item">
+              <div class="what-we-do-description styles-for-header">
+                <h5>DRONE PHOTOGRAPHY</h5>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere quo ipsam, quae magnam doloremque beatae fugiat aut
+                  totam dignissimos et, mollitia recusandae tempora! Natus
+                  quaerat praesentium veritatis ducimus eaque facere.
+                </p>
+                <a href="#">Read more</a>
+              </div>
+              <img src="images/what-we-do3.svg" alt="img" />
+            </div>
+            <div class="item">
+              <div class="what-we-do-description styles-for-header">
+                <h5>WILDLIFE PHOTOGRAPH</h5>
+                <p>
+                  Lorem ipsum color ut arret, consectetur ad phang et Nuem
+                  scelensque afquam adio ee foucious: Puña rococus feuglat eros
+                  quis consctatur. Marb mour uc burcametum daptus congus et.
+                  vulputcte «* Iguio, Vestbutum at amet uma surpis.
+                </p>
+                <a href="#">Read more</a>
+              </div>
+              <img src="images/what-we-do4.svg" alt="img" />
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <section class="sunset d-flex-end">
+        <div
+          class="adjustment-description styles-for-header styles-for-paragraph"
+        >
           <h4>Sunset At Mount Fuji</h4>
           <p>
             Duis tristique sed lorem a vestibulum. Cras commodo consequat orci,
             in convallis risus egestas non.
           </p>
         </div>
-        <ul class="fixed_information">
+        <ul class="fixed-information">
           <li>1"</li>
           <li>f/16</li>
           <li>400</li>
@@ -76,17 +263,19 @@
         </ul>
       </section>
 
-      <section class="the_tools_that_we_use"></section>
+      <section class="the-tools-that-we-use"></section>
 
-      <section class="monstera-leafs">
-        <div class="monstera-leafs-description">
+      <section class="monstera-leafs d-flex-end">
+        <div
+          class="adjustment-description styles-for-header styles-for-paragraph"
+        >
           <h4>Monstera Leafs</h4>
           <p>
             Vestibulum sit amet urna turpis. Mauris euismod elit et nisi
             ultrices, ut faucibus orci tincidunt.
           </p>
         </div>
-        <ul class="fixed_information">
+        <ul class="fixed-information">
           <li>1/400s</li>
           <li>f/3,5</li>
           <li>100</li>
@@ -94,37 +283,44 @@
         </ul>
       </section>
 
-      <section class="past_clients">
-        <div class="past_clients_description">
-          <h4>Past clients</h4>
-          <p>Trusted by your favourite companies</p>
-          <div class="sponsors">
-            <a href="#"><img src="images/sponsor1.svg" alt="sponsor" /></a>
-            <a href="#"><img src="images/sponsor2.svg" alt="sponsor" /></a>
-            <a href="#"><img src="images/sponsor3.svg" alt="sponsor" /></a>
-            <a href="#"><img src="images/sponsor4.svg" alt="sponsor" /></a>
-            <a href="#"><img src="images/sponsor5.svg" alt="sponsor" /></a>
+      <section class="past-clients">
+        <div class="container">
+          <div class="past-clients-description">
+            <h4>Past clients</h4>
+            <p>Trusted by your favourite companies</p>
+            <div class="sponsors owl-carousel">
+              <a href="#"><img src="images/sponsor1.svg" alt="sponsor" /></a>
+              <a href="#"><img src="images/sponsor2.svg" alt="sponsor" /></a>
+              <a href="#"><img src="images/sponsor3.svg" alt="sponsor" /></a>
+              <a href="#"><img src="images/sponsor4.svg" alt="sponsor" /></a>
+              <a href="#"><img src="images/sponsor5.svg" alt="sponsor" /></a>
+              <a href="#"><img src="images/sponsor3.svg" alt="sponsor" /></a>
+              <a href="#"><img src="images/sponsor4.svg" alt="sponsor" /></a>
+              <a href="#"><img src="images/sponsor5.svg" alt="sponsor" /></a>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="star_fall">
-        <div class="star_fall_description">
+      <section class="star-fall d-flex-end">
+        <div
+          class="adjustment-description styles-for-header styles-for-paragraph"
+        >
           <h4>Star Fall In The Himalayaas</h4>
           <p>
             Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex,
             condimentum dapibus congue et, vulputate ut ligula.
           </p>
         </div>
-        <ul class="fixed_information">
+        <ul class="fixed-information">
           <li>6"</li>
           <li>f/11</li>
           <li>800</li>
           <li>Nepal</li>
         </ul>
       </section>
-      <section class="need_help">
-        <div class="need_help_description">
+      <section class="need-help">
+        <div class="need-help-description">
           <h4>Need help with photography or videography?</h4>
           <h5>We're here for you!</h5>
           <a href="#">Get in touch</a>
@@ -158,7 +354,7 @@
           </div>
         </section>
         <section class="footer-subscribe">
-          <div class="subscribe-left">
+          <div class="subscribe-left styles-for-header">
             <h5>Subscribe to our newsletter</h5>
             <h6>Read about all the things we do.</h6>
           </div>
@@ -188,5 +384,13 @@
       src="https://kit.fontawesome.com/aa3901923b.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

@@ -1,0 +1,433 @@
+@media screen and (max-width: 1250px) {
+  /* .what-we-do, */
+  .past-clients .container {
+    max-width: 1000px;
+  }
+
+  .what-we-do {
+    padding: 0 15px;
+  }
+  .item {
+    width: 50%;
+    padding: 0 10px;
+  }
+  footer .container {
+    max-width: 1068px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  header {
+    padding: 24px 15px;
+  }
+}
+@media screen and (max-width: 1151px) {
+  .what-we-do .item .what-we-do-description {
+    padding: 30px 30px 20px 30px;
+  }
+
+  footer .container {
+    max-width: 968px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* .what-we-do, */
+  .past-clients .container {
+    max-width: 800px;
+  }
+
+  footer .container {
+    max-width: 868px;
+  }
+
+  .list-right ul:last-of-type {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    transform: translateX(100%);
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(20px);
+    /* max-width: 400px; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    display: none;
+  }
+
+  nav.nav-open {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  nav li:first-of-type {
+    margin-right: 0;
+  }
+
+  nav li {
+    margin-left: 0;
+  }
+
+  nav .nav-links {
+    display: unset;
+    width: 20%;
+    margin: auto;
+  }
+  nav .nav-links li {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+
+  nav.nav-open .menu-btn {
+    left: 80%;
+  }
+  .main-bunner {
+    align-items: center;
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  footer .container {
+    max-width: 768px;
+  }
+
+  .list-right ul:last-of-type {
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  /* .what-we-do, */
+  .past-clients .container {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  header ul li {
+    margin-left: 10px;
+  }
+
+  footer .container {
+    max-width: 668px;
+  }
+
+  .footer-subscribe {
+    display: block;
+    text-align: center;
+  }
+  .footer-subscribe form {
+    margin: auto;
+  }
+
+  .subscribe-left h5 {
+    font-size: 20px;
+  }
+
+  .subscribe-left h6 {
+    font-size: 17px;
+    margin: 15px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .what-we-do .d-flex {
+    justify-content: center;
+  }
+
+  .what-we-do .item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .what-we-do-description h5 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .what-we-do-description p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .what-we-do-description a {
+    padding: 15px;
+    max-width: 95%;
+  }
+
+  footer .container {
+    max-width: 568px;
+  }
+
+  .past-clients .container {
+    max-width: 620px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main-bunner {
+    height: 75vh;
+  }
+
+  .aperture-studios {
+    max-width: 450px;
+  }
+  .aperture-studios h2 {
+    font-size: 12px;
+    line-height: 7px;
+  }
+
+  .aperture-studios h1 {
+    font-size: 40px;
+  }
+
+  .aperture-studios p {
+    font-size: 12px;
+  }
+
+  .what-we-do .container {
+    max-width: 570px;
+  }
+
+  .past-clients .container {
+    max-width: 500px;
+  }
+
+  footer {
+    padding-bottom: 50px;
+  }
+  footer .container {
+    max-width: 468px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .aperture-studios {
+    max-width: 400px;
+  }
+
+  .aperture-studios h1 {
+    font-size: 35px;
+  }
+
+  .aperture-studios p {
+    font-size: 13px;
+  }
+
+  .what-we-do .item {
+    width: 80%;
+  }
+
+  .what-we-do-description h5 {
+    font-size: 17px;
+  }
+
+  .what-we-do-description p {
+    font-size: 17px;
+  }
+
+  .past-clients .container {
+    max-width: 350px;
+  }
+
+  footer {
+    padding-top: 75px;
+  }
+
+  footer .container {
+    max-width: 368px;
+  }
+
+  .footer-list,
+  .list-right {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .list-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-left p {
+    text-align: center;
+    margin: 12px 0px;
+  }
+
+  .footer-rights {
+    margin-top: 30px;
+  }
+
+  .footer-rights h6 {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .what-we-do .header-what-we-do h2 {
+    font-size: 30px;
+    line-height: 20px;
+  }
+
+  .what-we-do .header-what-we-do p {
+    font-size: 17px;
+  }
+
+  .d-flex-end {
+    justify-content: center;
+    align-items: center;
+  }
+  .adjustment-description {
+    margin-right: 0px;
+  }
+
+  .past-clients-description h4 {
+    font-size: 30px;
+    line-height: 20px;
+  }
+
+  .past-clients-description p {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .need-help-description {
+    max-width: 371px;
+  }
+
+  .need-help-description h4 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .need-help-description h5 {
+    font-size: 18px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .main-bunner {
+    height: 65vh;
+  }
+
+  .aperture-studios {
+    max-width: 300px;
+  }
+
+  .aperture-studios h2 {
+    font-size: 10px;
+  }
+  .aperture-studios h1 {
+    font-size: 27px;
+  }
+
+  .aperture-studios p {
+    font-size: 10px;
+  }
+  .what-we-do .d-flex {
+    padding: 0 15px;
+  }
+
+  .what-we-do-description h5 {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .what-we-do-description p {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .fixed-information {
+    right: auto;
+  }
+
+  .past-clients .container {
+    max-width: 280px;
+  }
+
+  footer {
+    padding-top: 50px;
+  }
+
+  footer .container {
+    max-width: 308px;
+  }
+
+  .list-left a {
+    text-align: center;
+  }
+
+  .list-right {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .list-right ul {
+    margin-top: 15px;
+  }
+
+  .list-right li {
+    margin-top: 5px;
+  }
+  .list-right ul:last-of-type {
+    margin-left: 0px;
+  }
+
+  .footer-rights h6 {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .what-we-do .header-what-we-do h2 {
+    font-size: 20px;
+    line-height: 15px;
+  }
+
+  .what-we-do .header-what-we-do p {
+    font-size: 12px;
+  }
+
+  .what-we-do-description h5 {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .what-we-do-description p {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  footer .container {
+    max-width: 268px;
+  }
+
+  .subscribe-left h5 {
+    font-size: 18px;
+  }
+
+  .subscribe-left h6 {
+    font-size: 15px;
+    margin: 15px 0;
+  }
+
+  .footer-subscribe {
+    padding: 30px 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
