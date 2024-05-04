@@ -107,7 +107,7 @@ nav a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
   color: #ffffff;
   text-decoration: none;
@@ -140,18 +140,6 @@ nav .nav-links li a {
 }
 nav .nav-links li ol {
   display: none;
-}
-nav .nav-links .hover-el {
-  position: absolute;
-  width: 100%;
-  height: var(--link-height);
-  top: var(--y);
-  left: var(--x);
-  opacity: 0;
-  background: radial-gradient(circle at var(--mousex) var(--mousey), rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.45) 100%);
-  transition: all 200ms cubic-bezier(0.215, 0.61, 0.355, 1);
-  pointer-events: none;
-  z-index: 5;
 }
 nav .sub-menu {
   --link-height: 60px;
